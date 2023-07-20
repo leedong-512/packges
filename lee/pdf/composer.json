@@ -17,5 +17,10 @@
             "email": "leedd521@163.com"
         }
     ],
+    "scripts": {
+        "post-package-install": [
+            "chmod -R 755 bin/"
+        ]
+    },
     "minimum-stability": "dev"
 }
